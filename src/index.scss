@@ -1,13 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 /* Variables */
-:root {
-  --header-height: 3rem;
-  --font-semi: 600;
-}
 
 :root {
-  --primary-color: #4070f4;
+  --header-height: 3rem;
+  --font-semi:600;
+}
+
+:root{
+  --primary-color:#4070f4;
   --secondary-color: #0e2431;
 }
 
@@ -29,6 +31,7 @@
   --z-fixed: 100;
 }
 
+// Base
 *, ::before, ::after {
   box-sizing: border-box;
 }
@@ -46,6 +49,7 @@ ul {
   list-style: none;
 }
 
+// Section
 .section {
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -54,22 +58,22 @@ ul {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--primary-color);
+  color:var(--primary-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
-}
 
-.section-title::after {
-  position: absolute;
-  content: '';
-  width: 64px;
-  height: 0.18rem;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 2rem;
-  background-color: var(--primary-color);
+  &::after{
+    position: absolute;
+    content: '';
+    width: 64px;
+    height: 0.18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: var(--primary-color);
+  }
 }
 
 /*----- Layout -----*/
@@ -81,4 +85,5 @@ ul {
   width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
+
 }

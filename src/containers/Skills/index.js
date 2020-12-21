@@ -5,6 +5,8 @@ import 'react-svg-radar-chart/build/css/index.css';
 
 import style from './index.module.scss';
 
+import AbilityBar from './components/AbilityBar';
+
 export default class Skills extends Component {
     render() {
 
@@ -48,7 +50,7 @@ export default class Skills extends Component {
         return (
             <section className={`${style.skills} section`} id='skills'>
                 <h2 className='section-title'>Skills</h2>
-                <div className={`${style.skills__container} bg-grid`}>
+                <div className={`${style.skills__container} bd-grid`}>
                     <div>
                         <h2 className={style.skills__subtitle}>Professional Skills</h2>
                         <p className={style.skills__text}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
@@ -58,6 +60,12 @@ export default class Skills extends Component {
                                 data={data}
                                 options={options}/>
                         </div>
+                        <AbilityBar name='Java' icon='bxl-html5' percentage='60%' />
+                        <AbilityBar name='C#' icon='bxl-css3' percentage='70%' />
+                        <AbilityBar name='Python' icon='bxl-javascript' percentage='50%'/>
+                        <AbilityBar name='Html/CSS' icon='bxl-css3' percentage='70%'/>
+                        <AbilityBar name='Javascript' icon='bxl-css3' percentage='70%'/>
+
                     </div>
                 </div>
             </section>

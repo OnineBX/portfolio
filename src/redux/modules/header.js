@@ -27,7 +27,7 @@ export const getOpenFlag = state => state.header.isOpen;
 export const getSelectedIndex = state => state.header.selectedIndex;
 
 const initialState = {
-    isOpen: true,
+    isOpen: false,
     selectedIndex: '#home'
 }
 

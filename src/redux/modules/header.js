@@ -26,12 +26,12 @@ export const actions = {
 export const getOpenFlag = state => state.header.isOpen;
 export const getSelectedIndex = state => state.header.selectedIndex;
 
+// reducer
+
 const initialState = {
     isOpen: false,
     selectedIndex: '#home'
 }
-
-// reducer
 
 export default function reducer(state = initialState, action = {}) {
     switch(action.type) {

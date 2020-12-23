@@ -16,15 +16,9 @@ class Education extends Component {
     render() {
         let {data} = this.props.education;
         return (
-            <section className={`${style.skills} section`} id='education'>
+            <section className={`${style.education} section`} id='education'>
                 <h2 className='section-title'>Education</h2>
-                <div className={`${style.skills__container} bd-grid`}>
-                    {/* <div>
-                        <h2 className={style.skills__subtitle}>Professional Skills</h2>
-                        <p className={style.skills__text}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-
-
-                    </div> */}
+                <div className={`${style.education__container} bd-grid`}>
                     {
                     data.map((item, idx) => (
                         <Card data={item} key={idx}/>

@@ -4,6 +4,7 @@ import Header from '../Header';
 import About from '../About';
 import Skills from '../Skills';
 import Education from '../Education';
+import Work from '../Work';
 
 
 export default class Home extends Component {
@@ -14,6 +15,7 @@ export default class Home extends Component {
                 <About />
                 <Skills />
                 <Education />
+                <Work />
             </div>
         )
     }

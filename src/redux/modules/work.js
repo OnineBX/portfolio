@@ -23,8 +23,8 @@ const initialState = {
     data: [
         {
             title: 'Junior Developer',
-            company: 'Startup Company',
-            time: '2010 - 2012',
+            company: 'Some Startup Companies',
+            time: '2010',
             icon: '/images/logo_hit.png',
             text: 'C# ASP.NET SqlServer Linq Sharepoint, Android',
             projects:[
@@ -42,7 +42,7 @@ const initialState = {
         {
             title: 'Senior Developer',
             company: 'CYOU',
-            time: '2013 - 2015',
+            time: '2013',
             icon: '/images/logo_hit.png',
             text: '1998 ~ 2002\n\nBachelor of Mechanical Engineering\n\n2002 ~ 2005\n\nMaster of Computer Science and Technology',
             projects:[

@@ -30,16 +30,23 @@
         }
     }
 
+    &__detail {
+        display: flex;
+        align-items: center;
+    }
+
     &__img{
-        position: absolute;
-        right: 1rem;
-        bottom: 0;
-        width: 265px;
+        // position: absolute;
+        // right: 1rem;
+        // bottom: 0;
+        // width: 265px;
         
 
         img {
-            width: 100%;
-            height: 100%;
+            
+            
+            margin: var(--mb-4);
+            width: calc(100% - 2rem);
         }
     }
 }

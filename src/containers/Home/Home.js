@@ -5,7 +5,7 @@ import About from '../About';
 import Skills from '../Skills';
 import Education from '../Education';
 import Work from '../Work';
-
+import Footer from '../Footer';
 
 export default class Home extends Component {
     render() {
@@ -16,6 +16,7 @@ export default class Home extends Component {
                 <Skills />
                 <Education />
                 <Work />
+                <Footer />
             </div>
         )
     }

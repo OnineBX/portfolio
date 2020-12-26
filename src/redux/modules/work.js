@@ -29,7 +29,7 @@ const initialState = {
             text: 'C# ASP.NET SqlServer Linq Sharepoint, Android',
             projects:[
                 {
-                    icon:'',
+                    icon:'bx bxl-github',
                     title: 'Material MIS',
                     link: 'www.github.com'
                 },
@@ -47,7 +47,7 @@ const initialState = {
             text: '1998 ~ 2002\n\nBachelor of Mechanical Engineering\n\n2002 ~ 2005\n\nMaster of Computer Science and Technology',
             projects:[
                 {
-                    icon:'',
+                    icon:'bx bxl-play-store',
                     title: 'C-Launcher',
                     link: 'www.baidu.com'
                 }

@@ -21,18 +21,36 @@
             padding: var(--mb-2) 0;
             margin: var(--mb-2) 0;
             border-bottom: .1rem solid var(--secondary-color);
+            font-style: oblique;
+            font-weight: var(--font-semi);
         }
 
         a {
             display: inline-block;
             padding: .5rem;
-            width: 60%;
+            width: 100%;
             background: var(--secondary-color);
             text-decoration: none;
             color: #fff;
+            white-space: nowrap;
 
             &:visited {
                 color: #fff;
+            }
+
+            i {
+                margin: 0 .5rem;
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 768px) {
+    .timeline-item {
+        &__project{
+            a {
+                width: 80%;
             }
         }
     }

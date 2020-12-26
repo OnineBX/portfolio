@@ -17,7 +17,9 @@ export default function TimelineItem(props) {
                         <li className={style['timeline-item__project']}>
                             <a href={item.link} target='_blank' rel='noopener noreferrer'>
                                 {item.title}
+                                <i className={item.icon}></i>
                             </a>
+                            
                         </li>
                         ))
                     }

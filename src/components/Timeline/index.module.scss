@@ -7,7 +7,7 @@
     &::before {
         content:'';
         position:absolute;
-        left: 50%;
+        left: 0;
         width: .2rem;
         height: 100%;
         background: var(--secondary-color);
@@ -20,39 +20,55 @@
 
         &__item {
             position: relative;
-            width: 50%;
+            width: 100%;
             padding: var(--mb-2) var(--mb-4);
-
-            &:nth-child(odd) {
-                text-align: right;
-
-                &::before {
-                    content:'';
-                    position:absolute;
-                    top: 1.5rem;
-                    right: -.5rem;
-                    width: .8rem;
-                    height: .8rem;
-                    background: var(--primary-color);
-                    border-radius: 50%;
-                    box-shadow: 0 0 0 .2rem rgba(64,112,244, .2);
-                }
+            text-align: left;
+            
+            &::before{
+                content:'';
+                position:absolute;
+                top: 1.5rem;
+                left: -1.35rem;
+                width: .8rem;
+                height: .8rem;
+                background: var(--primary-color);
+                border-radius: 50%;
+                box-shadow: 0 0 0 .2rem rgba(64,112,244, .2);
             }
+            
+        }
+    }
+}
 
-            &:nth-child(even) {
-                align-self: flex-end;
-                text-align: left;
+/*------- Media Queries ---------*/
+@media screen and(min-width: 768px) {
+    .timeline {
 
-                &::before {
-                    content: '';
-                    position: absolute;
-                    top: 1.5rem;
-                    left: -.3rem;
-                    width: .8rem;
-                    height: .8rem;
-                    background: var(--primary-color);
-                    border-radius: 50%;
-                    box-shadow: 0 0 0 .2rem rgba(64,112,244, .2);
+        &::before {
+            left: 50%;
+        }
+
+        &__container {
+            &__item {
+                width: 50%;
+                &:nth-child(odd) {
+                    text-align: right;
+    
+                    &::before {
+                        content:'';
+                        right: -.5rem;
+                        left:inherit;
+                    }
+                }
+    
+                &:nth-child(even) {
+                    align-self: flex-end;
+                    text-align: left;
+    
+                    &::before {
+                        content: '';
+                        left: -.3rem;
+                    }
                 }
             }
         }

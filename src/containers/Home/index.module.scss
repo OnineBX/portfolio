@@ -1,0 +1,45 @@
+.home {
+    height: calc(100vh - 3rem);
+    row-gap: 1rem;
+
+    &__data{
+        align-self: center;
+    }
+
+    &__title{
+        font-size: var(--big-font-size);
+        margin-bottom: var(--mb-5);
+
+        &-color{
+            color: var(--primary-color);
+        }
+    }
+
+    &__social{
+        display: flex;
+        flex-direction: column;
+        &-icon{
+            width: max-content;
+            margin-bottom: var(--mb-2);
+            font-size: 1.5rem;
+            color: var(--secondary-color);
+
+            &:hover{
+                color: var(--primary-color);
+            }
+        }
+    }
+
+    &__img{
+        position: absolute;
+        right: 2rem;
+        bottom: 0;
+        width: 265px;
+        
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

@@ -19,7 +19,7 @@ export const getHome = state => state.home;
 // reducer
 
 const initialState = {
-    profilePic: '/images/profile.jpg',
+    profilePic: '/images/profile.png',
     profileName: 'Ryan'
 }
 

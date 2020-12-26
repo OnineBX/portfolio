@@ -27,6 +27,7 @@ class Home extends Component {
                     <img src={process.env.PUBLIC_URL + home.profilePic} alt="" />
                 </div>
                 
+                
             </section>
         )
     }

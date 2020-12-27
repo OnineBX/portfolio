@@ -33,20 +33,27 @@
     &__detail {
         display: flex;
         align-items: center;
+        height: 50vh;
     }
 
     &__img{
+        padding: var(--mb-2);
         // position: absolute;
         // right: 1rem;
         // bottom: 0;
+        // display: inline;
         // width: 265px;
+        height: 100%;
+        // width: 100%;
         
 
         img {
-            
-            
-            margin: var(--mb-4);
-            width: calc(100% - 2rem);
+            float:right;
+            // height: 100%;
+            width: 95%;
+            // margin: var(--mb-4);
+            // width: calc(100% - 2rem);
+            // align-self: flex-end;
         }
     }
 }

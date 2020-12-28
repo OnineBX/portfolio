@@ -25,6 +25,7 @@
   --mb-2: 1rem;
   --mb-4: 2rem;
   --mb-5: 2.5rem;
+  --mb-6: 3rem;
   --mb-8: 4rem;
 }
 
@@ -85,4 +86,29 @@ ul {
   width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
+}
+
+/*------ Media Queries------*/
+@media screen and (min-width: 768px) {
+  body {
+    margin-top: calc(var(--header-height) + 1rem);
+  }
+  .section {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  .section-title {
+    margin-bottom: var(--mb-6);
+  }
+  .section-title::after {
+    width: 80px;
+    top: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

@@ -18,10 +18,12 @@ class Home extends Component {
                 </div>
                 <div className={style.home__detail}>
                     <div className={style.home__social}>
-                        <a href="" className={style["home__social-icon"]}><i class='bx bxs-envelope' ></i></a>
-                        <a href="" className={style["home__social-icon"]}><i class='bx bxs-phone' ></i></a>
-                        <a href="" className={style["home__social-icon"]}><i class='bx bxl-linkedin'></i></a>
-                        <a href="" className={style["home__social-icon"]}><i class='bx bxl-github' ></i></a>
+                        {home.social.map((item, idx) => (
+                            <a href={item.url} className={style["home__social-icon"]} key={idx}>
+                                <i className={item.icon} ></i>
+                                <span>{item.content}</span>
+                            </a>
+                        ))}
                     </div>
 
                     <div className={style.home__img}>    

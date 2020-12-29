@@ -38,7 +38,7 @@ class Header extends Component {
                             </ul>
                     </div>
                     <div className={style.nav__toggle} onClick = { this.handleToggle }>
-                        <i className='bx bx-menu'></i>
+                        <i className='fas fa-bars'></i>
                     </div>
                 </nav>
             </header>

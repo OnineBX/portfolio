@@ -1,6 +1,21 @@
 .education {
     &__container{
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
     
+}
+
+/*------ Media Query ------*/
+@media screen and(min-width: 768px) {
+    .education {
+        &__container {
+            flex-direction: row;
+    
+            & > * {
+                flex: 0 1 50%;
+            }
+        }
+    }
 }

@@ -26,12 +26,14 @@
     &__container {
         display: flex;
         justify-content: center;
+        align-items: center;
         padding-bottom: .5rem;
         border-bottom: 1px solid var(--secondary-color);
+        
 
         img{
             width: 50%;
-            height: 50%;
+            // height: 50%;
         }
     }
 

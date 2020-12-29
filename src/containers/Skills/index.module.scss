@@ -8,4 +8,31 @@
     &__subtitle {
         margin-bottom: var(--mb-2)
     }
+
+    &__data {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex: 0 1 100%;
+    //     justify-content: center;
+    //     align-items: center;
+    //     font-weight: var(--font-semi);
+    //     padding: .5rem 1rem;
+    //     margin-bottom: var(--mb-4);
+        
+    }
+}
+
+/*------ Media Query ------*/
+@media screen and(min-width: 768px) {
+    .skills {
+        &__data {
+//             flex-direction: row;
+            height: 400px;
+
+            & > * {
+                flex: 0 1 50%;
+            }
+        }
+    }
 }

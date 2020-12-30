@@ -77,6 +77,10 @@ ul {
   background-color: var(--primary-color);
 }
 
+.subtitle {
+  margin-bottom: var(--mb-2);
+}
+
 /*----- Layout -----*/
 .bd-grid {
   max-width: 1024px;

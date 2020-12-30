@@ -57,6 +57,11 @@ const initialState = [
                     title: 'Java',
                     icon: 'fab fa-java',
                     percent: '90%'
+                },
+                {
+                    title: 'C#',
+                    icon: 'fab fa-microsoft',
+                    percent: '70%'
                 }
             ]
         }

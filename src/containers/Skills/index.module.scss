@@ -5,9 +5,9 @@
         text-align: center;
     }
 
-    &__subtitle {
-        margin-bottom: var(--mb-2)
-    }
+    // &__subtitle {
+    //     margin-bottom: var(--mb-2)
+    // }
 
     &__data {
         display: flex;
@@ -26,6 +26,9 @@
 /*------ Media Query ------*/
 @media screen and(min-width: 768px) {
     .skills {
+        &__container {
+            text-align: left;
+        }
         &__data {
 //             flex-direction: row;
             height: 400px;

@@ -1,15 +1,16 @@
 .education {
+    text-align: center;
     &__container{
         display: flex;
         flex-direction: column;
-        text-align: center;
+        // text-align: center;
     }
-    
 }
 
 /*------ Media Query ------*/
 @media screen and(min-width: 768px) {
     .education {
+        text-align: left;
         &__container {
             flex-direction: row;
     

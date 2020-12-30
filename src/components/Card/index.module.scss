@@ -29,10 +29,12 @@
         align-items: center;
         padding-bottom: .5rem;
         border-bottom: 1px solid var(--secondary-color);
+        width: 100%;
         
 
         img{
-            width: 50%;
+            max-height: 120px;
+            // width: 50%;
             // height: 50%;
         }
     }

@@ -22,6 +22,12 @@ export const getWork = state => state.work;
 const initialState = {
     data: [
         {
+            title: 'Volunteer',
+            company: 'Aurora College',
+            time:'2020',
+            text:'Assist in Code Dojo course for teenagers'
+        },
+        {
             title: 'Junior Developer',
             company: 'Some Startup Companies',
             time: '2010',

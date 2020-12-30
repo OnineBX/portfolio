@@ -24,7 +24,7 @@ class Skills extends Component {
                 {
                     skills.map((skill, idx) => (
                             <div key={idx}>
-                                <h2 className={style.skills__subtitle}>{skill.title}</h2>
+                                <h2 className='subtitle'>{skill.title}</h2>
                                 <p className={style.skills__text}>{skill.content}</p>
                                 <div className={style.skills__data}>
                                     <div>

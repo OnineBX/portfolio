@@ -14,17 +14,28 @@ class Education extends Component {
     }
     
     render() {
-        let {data} = this.props.education;
+        let {history, reward} = this.props.education;
         return (
             <section className={`${style.education} section`} id='education'>
                 <h2 className='section-title'>Education</h2>
-                <div className={`${style.education__container} bd-grid`}>
-                    {
-                    data.map((item, idx) => (
-                        <Card data={item} key={idx}/>
-                    ))
-                }
+                
+                <div className='bd-grid'>
+                    <h2 className='subtitle'>History</h2>
+                    <div className={style.education__container}>
+                        {
+                            history.map((item, idx) => (
+                                <Card data={item} key={idx}/>
+                            ))
+                        }
+                    </div>
+                    <h2 className='subtitle'>Reward</h2>
+                        {
+                            reward.map((item, idx) => (
+                                <a>{item.title}</a>
+                            ))
+                        }
                 </div>
+                
             </section>
         )
     }

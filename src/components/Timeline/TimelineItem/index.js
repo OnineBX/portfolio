@@ -9,21 +9,27 @@ export default function TimelineItem(props) {
             <h4 className={style['timeline-item__time']}>{data.time}</h4>
             <div className={style['timeline-item__content']}>
                 <h3>{data.company}</h3>
+                <h4><i>{data.title}</i></h4>
                 <p>{data.text}</p>
-                <div className={style['timeline-item__project-title']}>Projects:</div>
-                { data.projects && (<ul>
-                    {
-                        data.projects.map((item, ipx) => (
-                        <li className={style['timeline-item__project']}>
-                            <a href={item.link} target='_blank' rel='noopener noreferrer'>
-                                {item.title}
-                                <i className={item.icon}></i>
-                            </a>
-                            
-                        </li>
-                        ))
-                    }
-                </ul>)
+                
+                { data.projects && (
+                    <div>
+                        <div className={style['timeline-item__project-title']}>Projects:</div>
+                        <ul>
+                            {
+                                data.projects.map((item, ipx) => (
+                                <li className={style['timeline-item__project']}>
+                                    <a href={item.link} target='_blank' rel='noopener noreferrer'>
+                                        {item.title}
+                                        <i className={item.icon}></i>
+                                    </a>
+                                    
+                                </li>
+                                ))
+                            }
+                        </ul>
+                    </div>)
+                    
                 }
             </div>
             

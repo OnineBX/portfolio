@@ -27,7 +27,7 @@ class About extends Component {
                     </div>
 
                     <div>
-                        <h2 className={style.about__subtitle}>{this.props.about.subtitle}</h2>
+                        <h2 className='subtitle'>{this.props.about.subtitle}</h2>
                         <p className="about__text">{this.props.about.content}</p>           
                     </div>
                 </div>

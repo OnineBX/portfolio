@@ -7,6 +7,35 @@
     }
 }
 
+.award {
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 2rem;
+        row-gap: 2rem;
+    }
+    
+    &__item {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            flex: 0 1 75%;
+            
+            width:100%;
+            margin-bottom: 1rem;
+            padding: var(--mb-2);
+            border-top: 2px solid var(--secondary-color);
+        }
+
+        h4 {
+            color: var(--primary-color);
+            text-align: center;
+        }
+
+    }
+}
+
 /*------ Media Query ------*/
 @media screen and(min-width: 768px) {
     .education {
@@ -17,6 +46,21 @@
             & > * {
                 flex: 0 1 50%;
             }
+        }
+    }
+
+    .award {
+        &__container {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        
+        &__item {
+            img {
+                // width: auto;
+                // width: 75%;
+                border-top: none;
+            }
+    
         }
     }
 }

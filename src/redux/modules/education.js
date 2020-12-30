@@ -32,12 +32,16 @@ const initialState = {
             icon: '/images/logo_sit.png'
         }
     ],
-    reward: [
+    award: [
         {
             title: 'Jensen Tech Award - Top Network Student',
-            icon: '',
+            image: '/images/jensen-tech.jpg',
             link:''
 
+        },
+        {
+            title: 'Microsoft Certified Professional Developer',
+            image: '/images/mcpd.jpg'
         }
     ]
     

@@ -14,7 +14,7 @@ class Education extends Component {
     }
     
     render() {
-        let {history, reward} = this.props.education;
+        let {history, award} = this.props.education;
         return (
             <section className={`${style.education} section`} id='education'>
                 <h2 className='section-title'>Education</h2>
@@ -28,12 +28,17 @@ class Education extends Component {
                             ))
                         }
                     </div>
-                    <h2 className='subtitle'>Reward</h2>
+                    <h2 className='subtitle'>Award</h2>
+                    <div className={style.award__container}>
                         {
-                            reward.map((item, idx) => (
-                                <a>{item.title}</a>
+                            award.map((item, idx) => (
+                                <div className={style.award__item}>
+                                    <img src={process.env.PUBLIC_URL + item.image}></img>
+                                    <h4>{item.title}</h4>
+                                </div>
                             ))
                         }
+                    </div>
                 </div>
                 
             </section>

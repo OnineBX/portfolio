@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
+import Zmage from 'react-zmage';
+
 import Card from '../../components/Card';
 import { getEducation, actions } from '../../redux/modules/education';
 
@@ -33,7 +35,7 @@ class Education extends Component {
                         {
                             award.map((item, idx) => (
                                 <div className={style.award__item}>
-                                    <img src={process.env.PUBLIC_URL + item.image}></img>
+                                    <Zmage src={process.env.PUBLIC_URL + item.image}></Zmage>
                                     <h4>{item.title}</h4>
                                 </div>
                             ))

@@ -3,9 +3,8 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import PropTypes from 'prop-types';
 
-import { actions, getAbout} from "../../redux/modules/about"
-import style from './index.module.scss'
-import ImgAbout from './images/about.jpg'
+import { actions, getAbout} from "../../redux/modules/about";
+import style from './index.module.scss';
 
 class About extends Component {
     static propTypes = {
@@ -23,7 +22,7 @@ class About extends Component {
                 <h2 className="section-title">About</h2>
                 <div className={`${style.about__container} bd-grid`}>
                     <div className={style.about__img}>
-                        <img src={ ImgAbout } alt="" />
+                        <img src={ process.env.PUBLIC_URL + this.props.about.image } alt="" />
                     </div>
 
                     <div>

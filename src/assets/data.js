@@ -6,11 +6,13 @@ export const home = {
     social: [
         {
             icon: 'fas fa-envelope',
-            content: 'hitxcl@gmail.com'
+            content: 'hitxcl@gmail.com',
+            url:'mailto:hitxcl@gmail.com'
         },
         {
             icon: 'fas fa-phone',
-            content: '21-08752367'
+            content: '21-08752367',
+            url:'tel: 02108752367'
         },
         {
             icon: 'fab fa-linkedin-in',
@@ -28,7 +30,7 @@ export const home = {
 // about
 export const about = {
     subtitle:'I\'m Ryan',
-    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    content: '<p>My career life is 100% driven by my enthusiasm for thinking and programing. Since 2010, I have accumulated more than 10 years of industry experience in IT Support, Software development and Internet application development. The Internet boom offers me lots of unprecedented opportunities to access to diverse novel techniques. </p>For the first three years, I\'ve worked for a startup and complete some web-based application for petrochemical industry. After that, I started to serve some Internet-based companies to implement mobile apps. During this period, I not only gained experiences in technique, but also learn how to do well in teamwork and know what I\'m going to be.<p>In recent two years, I\'m strongly aware of the importance of front-end technology and quite interested in working towards becoming a React senior. In the following years, I also plan to connect all the experience \" points\" to be a better-rounded full-stack dev.</p> <b>ps: also a runner & two kids\' father~</b>',
     image: '/images/about.jpg'
 }
 
@@ -36,7 +38,7 @@ export const about = {
 export const skills = [
     {
         title: 'Professional Skills',
-        content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.',
+        content: '<p>I have around 2-year experience in back-end development with ASP.Net or Java Web. Then I\'ve engaged in development based on Android platform all along so that I\'m quite experienced in Java programing. With the hybrid apps becoming the predominant trend, I started to dig in front-end technology stack and implement some web pages with React in projects. To be honest, I\'m not a professional front-end developer, but convinced I could be in recent future. Python is like a bonus when I\'m required to dispose the raw data in an indoor positioning project.</p><p>Many years of programming experience lets me know the important thing is not remerbering all the technical details used in projects, but understanding the critical thinking and applying the right technologies as needed.</p><p>The following marks are valued by myself based on my project experience and could be used as reference.</p>',
         radar: {
             title: 'Full Stack Ability',
             captions: {
@@ -79,33 +81,44 @@ export const skills = [
                     title: 'C#',
                     icon: 'fab fa-microsoft',
                     percent: '70%'
+                },
+                {
+                    title: 'Html/CSS/Javascript',
+                    icon: 'fab fa-js',
+                    percent: '60%'
+                },
+                {
+                    title: 'Python',
+                    icon: 'fab fa-python',
+                    percent: '60%'
                 }
             ]
         }
     },
     {
         title: 'English Skills',
-        content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.',
+        content: 'As an international job applicant, I\'ve spent much time in learning English. However, speaking and listening are still my weaknesses. The following marks are from the latest PTE test which is exactly used as an \"offical" reference.',
         radar: {
             title: 'Communicative Skills',
             captions: {
                 // columns
-                gv: 'grammar/vocabulary',
                 speaking: 'speaking',
                 listening: 'listening',
                 reading: 'reading',
                 writing: 'writing',
+                grammar: 'grammar',
+                vocabulary: 'vocabulary',
                 
             },
             details:[
                 {
                   data: {
-                    gv: .82,
                     speaking: .45,
                     listening: .59,
                     reading: .62,
                     writing: .8,
-                    
+                    grammar: .90,
+                    vocabulary: .73,
                   },
                   meta: { color: 'blue' }
                 }
@@ -131,6 +144,11 @@ export const skills = [
                     title: 'pelling',
                     icon: 'fab fa-stripe-s',
                     percent:'78%'
+                },
+                {
+                    title: 'ritten Discourse',
+                    icon: 'fab fa-weebly',
+                    percent: '90%'
                 }
             ]
         }  

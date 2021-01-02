@@ -30,7 +30,7 @@ class Education extends Component {
                             ))
                         }
                     </div>
-                    <h2 className='subtitle'>Award</h2>
+                    <h2 className='subtitle'>Award & Cert</h2>
                     <div className={style.award__container}>
                         {
                             award.map((item, idx) => (

@@ -13,6 +13,21 @@
         border-radius: var(--mb-2);
     }
 
+    &__tag-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__tag {
+        background-color: rgb(126, 196, 60);
+        padding: .2rem .5rem;
+        color: #fff;
+        margin-right: .5rem;
+        margin-bottom: .2rem;
+        font-size: 0.6rem;
+        border-radius: .2rem;
+    }
+
     &__project{
         
         margin: 0 0 .5rem;
@@ -53,5 +68,11 @@
                 width: 80%;
             }
         }
+
+        &__tag-container{
+            display: inherit;
+            flex-wrap: nowrap;
+        }
     }
+
 }

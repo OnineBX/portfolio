@@ -97,7 +97,7 @@ export const skills = [
     },
     {
         title: 'English Skills',
-        content: 'As an international job applicant, I\'ve spent much time in learning English. However, speaking and listening are still my weaknesses. The following marks are from the latest PTE test which is exactly used as an \"offical" reference.',
+        content: 'As an international job applicant, I\'ve spent much time in learning English. However, speaking and listening are still my weaknesses. The following marks are from the latest PTE test which could be exactly used as an \"official" reference.',
         radar: {
             title: 'Communicative Skills',
             captions: {
@@ -188,43 +188,106 @@ export const education = {
 export const work = {
     data: [
         {
-            title: 'Volunteer',
-            company: 'Aurora College',
-            time:'2020',
-            text:'Assist in Code Dojo course for teenagers'
-        },
-        {
             title: 'Junior Developer',
-            company: 'Some Startup Companies',
             time: '2010',
-            icon: '/images/logo_hit.png',
-            text: 'C# ASP.NET SqlServer Linq Sharepoint, Android',
-            projects:[
+            tags: ['C#', 'Asp.Net', 'Java', 'Android'],
+            content: [
                 {
-                    icon:'bx bxl-github',
-                    title: 'Material MIS',
-                    link: 'www.github.com'
-                },
-                {
-                    title: 'Ordering System',
-                    link: 'www.github.com'
-                },
+                    company: 'Some Startup Companies',
+                    icon: '/images/logo_hit.png',
+                    text: 'I completed some projects, most of which are web-based. Ordering System for restaurants led me to start android app development.',
+                    projects:[
+                        {
+                            icon:'bx bxl-github',
+                            title: 'Material MIS',
+                            link: 'www.github.com'
+                        },
+                        {
+                            title: 'Ordering System',
+                            link: 'www.github.com'
+                        },
+                    ]
+                }
             ]
+            
         },
         {
             title: 'Senior Developer',
-            company: 'CYOU',
             time: '2013',
-            icon: '/images/logo_hit.png',
-            text: '1998 ~ 2002\n\nBachelor of Mechanical Engineering\n\n2002 ~ 2005\n\nMaster of Computer Science and Technology',
-            projects:[
+            tags: ['Android', 'Java'],
+            content:[
                 {
-                    icon:'bx bxl-play-store',
-                    title: 'C-Launcher',
-                    link: 'www.baidu.com'
+                    company: 'CYOU Ltd.',
+                    icon: '/images/logo_hit.png',
+                    text: 'I worked for the C-Launcher team as one of the chief programmers. C-Launcher is still alive in Google Play as the following button could let you go~',
+                    projects:[
+                        {
+                            icon:'fab fa-google-play',
+                            title: 'C-Launcher',
+                            link: 'https://play.google.com/store/apps/details?id=com.cma.launcher.lite'
+                        }
+                    ]
                 }
             ]
         },
-
+        {
+            title: 'Lead Developer',
+            time: '2015',
+            tags: ['Java', 'Android', 'React', 'Python', 'Node.js', 'Gradle'],
+            content:[
+                {
+                    company: 'Wanda Group.',
+                    icon: '/images/work-wanda.png',
+                    text:'I gained the opportunities to using react, python as well as Java to develop ffan app(hybrid app, an O2O platform being active from 2015 to 2018) (｡•́︿•̀｡)',
+                    projects:[
+                        {
+                            title:'ffan series projects',
+                        }
+                    ]
+                },
+                {
+                    company: 'Watsons Group.',
+                    icon: '/images/work-watsons.png',
+                    text:'Watsons app is still running in markets. The following project is a facebook-style image-showing library I developed for it.',
+                    projects:[
+                        {
+                            title: 'Image-showing library'
+                        }
+                    ]
+                },
+                {
+                    company: 'Seedland Group.',
+                    text: 'I\'m in charge of shell tree app project. My work includes designing Restful APIs, implementing its Android edition and build up the official SDKs for other teams.',
+                    projects:[
+                        {
+                            title:'Seed library'
+                        },
+                    ]
+                }
+            ]   
+            
+        },
+        {
+            title: 'Volunteer & Student',
+            time:'2020',
+            tags:['C#', 'Asp.Net Core', 'MySQL', 'Bootstrap', 'jQuery'],
+            content:[
+                {
+                    company: 'Aurora College',
+                    icon: '/images/work-aurora.png',
+                    text:'Assist in Code Dojo course for teenagers'
+                },
+                {
+                    company: 'Ceroc',
+                    text:'Graduate Diploma final year project ~ MyCeroc',
+                    projects:[
+                        {
+                            title:'MyCeroc'
+                        }
+                    ]
+                }
+            ]
+            
+        },
     ]
 }

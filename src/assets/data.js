@@ -287,17 +287,29 @@ export const work = {
                 },
                 {
                     company: 'Ceroc',
-                    text:'Graduate Diploma final year project ~ MyCeroc. Meanwhile, I worked out a solution to dealing with data of Pump Diagnosis from multi enterprises.',
+                    text:'Graduate Diploma final year project ~ MyCeroc. ',
                     projects:[
                         {
                             title:'MyCeroc',
                             icon: 'fab fa-github',
                             link: 'https://github.com/myceroc'
                         },
+                        
+                    ]
+                },
+                {
+                    company: 'Ohters',
+                    text: 'Meanwhile, I worked out a solution to dealing with data of Pump Diagnosis from multi enterprises. My portfolio website as well~',
+                    projects:[
                         {
                             title: 'Pump Diagnosis',
                             link: 'https://github.com/Diagnosis-Solution',
                             icon: 'fab fa-github',
+                        },
+                        {
+                            title: 'Ryan Portfolio',
+                            link: 'https://github.com/OnineBX/portfolio',
+                            icon: 'fab fa-github'
                         }
                     ]
                 }

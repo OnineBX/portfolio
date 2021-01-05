@@ -30,7 +30,7 @@ export const home = {
 // about
 export const about = {
     subtitle:'I\'m Ryan',
-    content: '<p>My career life is 100% driven by my enthusiasm for thinking and programing. Since 2010, I have accumulated more than 10 years of industry experience in IT Support, Software development and Internet application development. The Internet boom offers me lots of unprecedented opportunities to access to diverse novel techniques. </p>For the first three years, I\'ve worked for a startup and complete some web-based application for petrochemical industry. After that, I started to serve some Internet-based companies to implement mobile apps. During this period, I not only gained experiences in technique, but also learn how to do well in teamwork and know what I\'m going to be.<p>In recent two years, I\'m strongly aware of the importance of front-end technology and quite interested in working towards becoming a React senior. In the following years, I also plan to connect all the experience \" points\" to be a better-rounded full-stack dev.</p> <b>ps: also a runner & two kids\' father~</b>',
+    content: '<p>My career life is 100% driven by my enthusiasm for thinking and programing. By far, I have accumulated more than 10 years of industry experience in IT Support, Software development and Internet application development. The Internet boom offers me lots of unprecedented opportunities to access to diverse novel techniques. </p>For the first three years, I\'ve worked for a startup and complete some web-based application for petrochemical industry. After that, I started to serve some Internet-based companies to implement mobile apps. During this period, I not only gained experiences in technique, but also learn how to do well in teamwork and know what I\'m going to be.<p>In recent two years, I\'m strongly aware of the importance of front-end technology and quite interested in working towards becoming a React senior. In the following years, I also plan to connect all the experience \" points\" to be a better-rounded full-stack dev.</p> <b>ps: also a runner & two kids\' father~</b>',
     image: '/images/about.jpg'
 }
 
@@ -198,13 +198,14 @@ export const work = {
                     text: 'I completed some projects, most of which are web-based. Ordering System for restaurants led me to start android app development.',
                     projects:[
                         {
-                            icon:'bx bxl-github',
+                            icon:'fab fa-github',
                             title: 'Material MIS',
-                            link: 'www.github.com'
+                            link: 'https://github.com/OnineBX/Material-MIS'
                         },
                         {
                             title: 'Ordering System',
-                            link: 'www.github.com'
+                            icon:'fab fa-github',
+                            link: 'https://github.com/OnineBX/Ordering-System'
                         },
                     ]
                 }
@@ -242,16 +243,20 @@ export const work = {
                     projects:[
                         {
                             title:'ffan series projects',
+                            icon: 'fab fa-github',
+                            link: 'https://github.com/ffan-story'
                         }
                     ]
                 },
                 {
                     company: 'Watsons Group.',
                     icon: '/images/work-watsons.png',
-                    text:'Watsons app is still running in markets. The following project is a facebook-style image-showing library I developed for it.',
+                    text:'Watsons app is still running in markets. I developed global shopping module',
                     projects:[
                         {
-                            title: 'Image-showing library'
+                            title: 'Watsons series app',
+                            icon: 'fab fa-google-play',
+                            link: 'https://play.google.com/store/search?q=watsons'
                         }
                     ]
                 },
@@ -260,7 +265,10 @@ export const work = {
                     text: 'I\'m in charge of shell tree app project. My work includes designing Restful APIs, implementing its Android edition and build up the official SDKs for other teams.',
                     projects:[
                         {
-                            title:'Seed library'
+                            title:'Seed series projects',
+                            icon: 'fab fa-github',
+                            link: 'https://github.com/seedland-inf'
+
                         },
                     ]
                 }
@@ -269,20 +277,27 @@ export const work = {
         },
         {
             title: 'Volunteer & Student',
-            time:'2020',
-            tags:['C#', 'Asp.Net Core', 'MySQL', 'Bootstrap', 'jQuery'],
+            time:'2019',
+            tags:['C#', 'Asp.Net Core', 'MySQL', 'Java', 'MongoDB', 'Python'],
             content:[
                 {
                     company: 'Aurora College',
                     icon: '/images/work-aurora.png',
-                    text:'Assist in Code Dojo course for teenagers'
+                    text:'Volunteer, assist in Code Dojo course for teenagers'
                 },
                 {
                     company: 'Ceroc',
-                    text:'Graduate Diploma final year project ~ MyCeroc',
+                    text:'Graduate Diploma final year project ~ MyCeroc. Meanwhile, I worked out a solution to dealing with data of Pump Diagnosis from multi enterprises.',
                     projects:[
                         {
-                            title:'MyCeroc'
+                            title:'MyCeroc',
+                            icon: 'fab fa-github',
+                            link: 'https://github.com/myceroc'
+                        },
+                        {
+                            title: 'Pump Diagnosis System',
+                            link: 'https://github.com/Diagnosis-Solution',
+                            icon: 'fab fa-github',
                         }
                     ]
                 }

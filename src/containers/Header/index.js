@@ -33,8 +33,9 @@ class Header extends Component {
                                 <li index='home' className={style.nav__item}><a href="#home" onClick={this.handleClick} className={`${style.nav__link} ${this.props.selectedIndex==='#home' ? style.active: ""}`}>Home</a></li>
                                 <li index='about' className={style.nav__item}><a href="#about" onClick={this.handleClick} className={`${style.nav__link} ${this.props.selectedIndex==='#about' ? style.active: ""}`}>About</a></li>
                                 <li index='skills' className={style.nav__item}><a href="#skills" onClick={this.handleClick} className={`${style.nav__link} ${this.props.selectedIndex==='#skills' ? style.active: ""}`}>Skills</a></li>
-                                <li index='work' className={style.nav__item}><a href="#work" onClick={this.handleClick} className={`${style.nav__link} ${this.props.selectedIndex==='#work' ? style.active: ""}`}>Work</a></li>
                                 <li index='education' className={style.nav__item}><a href="#education" onClick={this.handleClick} className={`${style.nav__link} ${this.props.selectedIndex==='#education' ? style.active: ""}`}>Education</a></li>
+                                <li index='work' className={style.nav__item}><a href="#work" onClick={this.handleClick} className={`${style.nav__link} ${this.props.selectedIndex==='#work' ? style.active: ""}`}>Work</a></li>
+                                
                             </ul>
                     </div>
                     <div className={style.nav__toggle} onClick = { this.handleToggle }>

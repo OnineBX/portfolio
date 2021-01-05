@@ -295,7 +295,7 @@ export const work = {
                             link: 'https://github.com/myceroc'
                         },
                         {
-                            title: 'Pump Diagnosis System',
+                            title: 'Pump Diagnosis',
                             link: 'https://github.com/Diagnosis-Solution',
                             icon: 'fab fa-github',
                         }

@@ -97,7 +97,7 @@ export const skills = [
     },
     {
         title: 'English Skills',
-        content: 'As an international job applicant, I\'ve spent much time in learning English. However, speaking and listening are still my weaknesses. The following marks are from the latest PTE test which could be exactly used as an \"official" reference.',
+        content: 'As an international job applicant, I\'ve spent much time in learning English. However, speaking and listening are still my weaknesses. The following marks are from the latest PTE test which could be exactly used as an \"official" reference. Trust me, I do better in normal conversation now~',
         radar: {
             title: 'Communicative Skills',
             captions: {

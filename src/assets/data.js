@@ -38,7 +38,7 @@ export const about = {
 export const skills = [
     {
         title: 'Professional Skills',
-        content: '<p>I have around 2-year experience in back-end development with ASP.Net or Java Web. Then I\'ve engaged in development based on Android platform all along so that I\'m quite experienced in Java programing. With the hybrid apps becoming the predominant trend, I started to dig in front-end technology stack and implement some web pages with React in projects. To be honest, I\'m not a professional front-end developer, but convinced I could be in recent future. Python is like a bonus when I\'m required to dispose the raw data in an indoor positioning project.</p><p>Many years of programming experience lets me know the important thing is not remerbering all the technical details used in projects, but understanding the critical thinking and applying the right technologies as needed.</p><p>The following marks are valued by myself based on my project experience and could be used as reference.</p>',
+        content: '<p>I have around 2-year experience in back-end development with ASP.Net or Java Web. Then I\'ve engaged in development based on Android platform all along so that I\'m quite experienced in Java programing. With the hybrid apps becoming the predominant trend, I started to dig in front-end technology stack and program with React in projects. Python is like a bonus when I\'m required to dispose the raw data in an indoor positioning project.</p><p>Many years of programming experience lets me know the important thing is not remerbering all the technical details used in projects, but understanding the critical thinking and applying the right technologies as needed.</p><p>The following marks are valued by myself based on my project experience and could be used as reference.</p>',
         radar: {
             title: 'Full Stack Ability',
             captions: {
@@ -213,7 +213,7 @@ export const work = {
             
         },
         {
-            title: 'Senior Developer',
+            title: 'Senior Android Developer',
             time: '2013',
             tags: ['Android', 'Java'],
             content:[
@@ -232,7 +232,7 @@ export const work = {
             ]
         },
         {
-            title: 'Lead Developer',
+            title: 'Senior Developer',
             time: '2015',
             tags: ['Java', 'Android', 'React', 'Python', 'Node.js', 'Gradle'],
             content:[

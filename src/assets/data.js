@@ -245,33 +245,39 @@ export const work = {
                             title:'ffan series projects',
                             icon: 'fab fa-github',
                             link: 'https://github.com/ffan-story'
-                        }
-                    ]
-                },
-                {
-                    company: 'Watsons Group.',
-                    icon: '/images/work-watsons.png',
-                    text:'Watsons app is still running in markets. I developed global shopping module',
-                    projects:[
-                        {
-                            title: 'Watsons series app',
-                            icon: 'fab fa-google-play',
-                            link: 'https://play.google.com/store/search?q=watsons'
-                        }
-                    ]
-                },
-                {
-                    company: 'Seedland Group.',
-                    text: 'I\'m in charge of shell tree app project. My work includes designing Restful APIs, implementing its Android edition and build up the official SDKs for other teams.',
-                    projects:[
+                        },
                         {
                             title:'Seed series projects',
                             icon: 'fab fa-github',
                             link: 'https://github.com/seedland-inf'
 
-                        },
+                        }
                     ]
-                }
+                },
+                // {
+                //     company: 'Watsons Group.',
+                //     icon: '/images/work-watsons.png',
+                //     text:'Watsons app is still running in markets. I developed global shopping module',
+                //     projects:[
+                //         {
+                //             title: 'Watsons series app',
+                //             icon: 'fab fa-google-play',
+                //             link: 'https://play.google.com/store/search?q=watsons'
+                //         }
+                //     ]
+                // },
+                // {
+                //     company: 'Seedland Group.',
+                //     text: 'I\'m in charge of shell tree app project. My work includes designing Restful APIs, implementing its Android edition and build up the official SDKs for other teams.',
+                //     projects:[
+                //         {
+                //             title:'Seed series projects',
+                //             icon: 'fab fa-github',
+                //             link: 'https://github.com/seedland-inf'
+
+                //         },
+                //     ]
+                // }
             ]   
             
         },
